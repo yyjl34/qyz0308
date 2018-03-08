@@ -1,0 +1,462 @@
+@import "base.css";
+
+
+
+@font-face {
+    font-family: 'iconfont';  /* project id 563226 */
+    src: url('http://at.alicdn.com/t/font_563226_ho15y2jv32uzncdi.eot');
+    src: url('http://at.alicdn.com/t/font_563226_ho15y2jv32uzncdi.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_563226_ho15y2jv32uzncdi.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_563226_ho15y2jv32uzncdi.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_563226_ho15y2jv32uzncdi.svg#iconfont') format('svg');
+}
+.iconfont{
+    font-family: 'iconfont';
+}
+i{
+    font-style: normal;
+
+}
+.home_slider{
+    width: 100%;
+    height:600px;
+    position: relative;
+}
+.home_slider ul{
+    width: 100%;
+    height: 100%;
+}
+.home_slider ul li{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left: 0;
+
+}
+.home_slider ul img{
+    display: block;
+    width: 100%;
+    height: 100%;
+
+}
+.header{
+    width: 100%;
+    height: 85px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.header .logo{
+    display: block;
+    color: #131313;
+    font-size: 13px;
+    text-decoration: none;
+    margin: 30px 0;
+}
+.header .logo p{
+    font-size: 25px;
+    color: white;
+}
+.menu{
+    max-width: 100%;
+    height: 25px;
+    margin:35px 0;
+    display: flex;
+    justify-content: flex-end;
+}
+.dropdown{
+    margin-left: 17px;
+    float: left;
+}
+.icon1{
+    font-size: 10px;
+    color: #fff;
+    margin-left: 10px;
+    position: relative;
+}
+.inzi{
+    width: auto;
+    height: auto;
+}
+.inzi .inhidden{
+    width:160px ;
+    height: 152px;
+    position: absolute;
+    top:100%;
+    left:0;
+    z-index: 1000;
+    padding:5px 0;
+    /*margin: 24px 0;*/
+    font-size: 14px;
+    text-align: left;
+    background: #fff;
+    display: none;
+
+}
+.inzi:hover .inhidden{
+    display: block;
+}
+.inzi .inhidden .inhizi{
+    display: block;
+    padding: 5px 15px ;
+    font-size: 12px;
+    font-weight: 400;
+    color: #666;
+    margin-right: 20px;
+}
+.inzi .inhidden .inhizi:hover{
+    color: lawngreen;
+}
+.menu .dropdown a{
+    display: block;
+    font-size: 14px;
+    color: white;
+    text-align: center;
+    line-height: 25px;
+    text-decoration: none;
+    font-weight: 500;
+    float:left;
+}
+.tp_wrap{
+    height: 194px;
+    position: absolute;
+    top:150px;
+    left:34%;
+    /*padding-left: 20px;*/
+    /*padding-right: 20px;*/
+}
+.tp_wrap h2{
+    margin-left: -88px;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    line-height: 194px;
+    font-size: 110px;
+}
+.crump{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    bottom: 230px;
+    left:45%;
+    display: flex;
+    text-align: center;
+}
+.crump a{
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+    text-align: center;
+    line-height: 30px;
+    margin-right: 20px;
+}
+.crump a:hover{
+    color:lawngreen;
+    text-decoration: none;
+}
+.section{
+    width: 100%;
+    height: auto;
+    padding:96px 0;
+    background:#fff;
+    position: relative;
+    z-index: 999;
+}
+.grid{
+    margin-top: 0;
+    margin-bottom: 10px;
+
+}
+.grid li{
+    margin: 15px 0px;
+    padding:0 15px;
+    position: relative;
+}
+.grid li img{
+    width: 100%;
+    height: 100%;
+    display: block;
+}
+.grid .libig{
+    width: 100%;
+    height: 100%;
+}
+.zhe{
+    opacity: 0;
+    background:#010101;
+    position: absolute;
+    top: 0;
+}
+.grid li:hover .zhe {
+    opacity: 1;
+    transition: all 1s;
+}
+.item{
+    text-align: center;
+    top: 26%;
+    position: absolute;
+    left: 0;
+    right: 0;
+    color: #fff;
+}
+.item h3{
+    font-weight: bold;
+    font-size: 30px;
+}
+.zhe2{
+    opacity: 0;
+    background:blue;
+    position: absolute;
+    top: 0;
+}
+.grid li:hover .zhe2 {
+    opacity: 1;
+    transition: all 1s;
+}
+.zhe3{
+    /*width: 320px;*/
+    /*height: 331px;*/
+    opacity: 0;
+    background:lawngreen;
+    position: absolute;
+    top: 0;
+}
+.grid li:hover .zhe3 {
+    opacity: 1;
+    transition: all 1s;
+}
+.zhe4{
+    /*width: 320px;*/
+    /*height: 331px;*/
+    opacity: 0;
+    background:darkred;
+    position: absolute;
+    top: 0;
+}
+.grid li:hover .zhe4 {
+    opacity: 1;
+    transition: all 1s;
+}
+.zhe5{
+    width: 97.2%;
+    height: 100%;
+    opacity: 0;
+    background:#010;
+    position: absolute;
+    top: 0;
+}
+.grid li:hover .zhe5 {
+    opacity: 1;
+    transition: all 1s;
+}
+footer{
+    width: 100%;
+    height: 467px;
+    background: #FAFAFA;
+    padding: 96px 0;
+
+}
+.news{
+    text-align: center;
+    margin-bottom: 50px;
+}
+.news_head{
+    height: 93px;
+}
+.news_head h4{
+    font-size: 22px;
+    margin-bottom: 24px;
+
+}
+.news_head p{
+    max-width: 700px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 26px;
+    margin-bottom: 24px;
+    font-weight: 400;
+    text-align: center;
+    font-size: 20px;
+    color: #5E5E5E;
+}
+.animate{
+    width: 100%;
+    height: 75px;
+    padding: 0 15px;
+    margin:24px 0;
+}
+.news_form{
+    max-width: 500px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 48px;
+    text-align: center;
+    display: flex;
+}
+.in_control{
+    width: 380px;
+    height: 50px;
+    border:1px solid #9D9D9D ;
+    font-size: 14px;
+    padding: 12px;
+}
+.in_control:focus{
+    outline: none;
+}
+.news_form button{
+    background: #131313;
+    color: white;
+    height: 50px;
+    font-size: 12px;
+    padding: 0 12px;
+    font-weight: 900;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin: 0;
+    border: none;
+}
+.news_form button:focus{
+    outline: none;
+}
+.news_form button:hover{
+    background:darkgreen;
+}
+hr{
+    display: block;
+    width: 100%;
+    background: #EEEEEE;
+}
+.ft_left{
+    font-size: 13px;
+    margin-bottom: 10px;
+    display: block;
+    color:#131313;
+
+}
+.ft_left p{
+    color: #2F2F2F;
+    font-size:13px;
+}
+.ft_right{
+    text-align: center;
+    margin-left: auto;
+    width: 250px;
+    height: 30px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 5px;
+}
+.ft_right a{
+    font-size: 10px;
+    font-weight:600;
+    color: #131313;
+    text-align: center;
+    line-height: 30px;
+}
+.ft_right a:hover{
+    color: darkgreen;
+    text-decoration: none;
+}
+/*响应式开始*/
+/*pc 大屏大于1200px*/
+@media screen and (min-width: 1200px){
+    .grid li{
+        max-width: 350px;
+        height: 331px;
+    }
+    .zhe{
+        width: 320px;
+        height: 331px;
+    }
+    .zhe2{
+        width: 320px;
+        height: 331px;
+    }
+    .zhe3 {
+        width: 320px;
+        height: 331px;
+    }
+    .zhe4 {
+        width: 320px;
+        height: 331px;
+    }
+
+}
+/*pc 小屏  大于992px小于1200px*/
+@media screen and (min-width: 992px) and (max-width: 1200px){
+    .grid li {
+        max-width: 350px;
+        height: 331px;
+    }
+    .zhe{
+        width: 320px;
+        height: 331px;
+    }
+    .zhe2{
+        width: 320px;
+        height: 331px;
+    }
+    .zhe3 {
+        width: 320px;
+        height: 331px;
+    }
+    .zhe4 {
+        width: 320px;
+        height: 331px;
+    }
+
+}
+/*平板端 大于768px 小于992px*/
+@media screen and (min-width: 768px) and (max-width: 992px){
+    .grid li{
+        max-width:858px;
+        height: 800px;
+    }
+    .zhe{
+        width: 697px;
+        height: 800px;
+    }
+    .zhe2{
+        width:697px;
+        height: 800px;
+    }
+    .zhe3 {
+        width: 697px;
+        height: 800px;
+    }
+    .zhe4 {
+        width: 697px;
+        height: 800px;
+    }
+
+}
+/*移动端 小于768px*/
+@media screen and (max-width: 768px){
+    .grid li{
+        max-width:858px;
+        height: 800px;
+    }
+    .zhe{
+        width: 530px;
+        height: 800px;
+    }
+    .zhe2{
+        width:530px;
+        height: 800px;
+    }
+    .zhe3 {
+        width:530px;
+        height: 800px;
+    }
+    .zhe4 {
+        width: 530px;
+        height: 800px;
+    }
+
+
+}
