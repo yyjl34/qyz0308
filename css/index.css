@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: 'iconfont';  /* project id 563226 */
-    src: url('https://at.alicdn.com/t/font_563226_amf4zxzurqr7wrk9.eot');
-    src: url('https://at.alicdn.com/t/font_563226_amf4zxzurqr7wrk9.eot?#iefix') format('embedded-opentype'),
-    url('https://at.alicdn.com/t/font_563226_amf4zxzurqr7wrk9.woff') format('woff'),
-    url('https://at.alicdn.com/t/font_563226_amf4zxzurqr7wrk9.ttf') format('truetype'),
-    url('https://at.alicdn.com/t/font_563226_amf4zxzurqr7wrk9.svg#iconfont') format('svg');
+    src: url('http://at.alicdn.com/t/font_563226_amf4zxzurqr7wrk9.eot');
+    src: url('http://at.alicdn.com/t/font_563226_amf4zxzurqr7wrk9.eot?#iefix') format('embedded-opentype'),
+    url('http://at.alicdn.com/t/font_563226_amf4zxzurqr7wrk9.woff') format('woff'),
+    url('http://at.alicdn.com/t/font_563226_amf4zxzurqr7wrk9.ttf') format('truetype'),
+    url('http://at.alicdn.com/t/font_563226_amf4zxzurqr7wrk9.svg#iconfont') format('svg');
 }
 .iconfont{
     font-family: 'iconfont';
